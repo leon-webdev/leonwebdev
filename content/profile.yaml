@@ -1,0 +1,27 @@
+- profile:
+  initials: LM
+  name: León G. Martínez Ostos
+  email: leonma19@gmail.com
+  profession: Web Developer
+  image: images/profile-1.jpg
+  location: Barranquilla, CO
+  relocation: false
+  company: Freelance
+  for_hire: true
+  focus: Learning Gatsby and Next
+  focus_url: https://gatsbyjs.com
+  about: |
+    I like to contribute to the norms and policies of the companies that want my services and to increase the productivity and efficiency of the information technologies by applying it in the workplace.
+  skills:
+    - HTML / CSS
+    - JavaScript
+    - Node.js
+  tools:
+    - React
+    - VSCode
+    - Gatsby
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 10
