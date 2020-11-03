@@ -1,99 +1,121 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
+<h1 align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
   </a>
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
 </h1>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+<h3 align="center">
+  My Personal Website - León G. Martínez Ostos
+</h3>
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+<p align="center">We can do anything</p>
 
-## 🚀 Quick start
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/leon-webdev/my-website?style=flat-square">
 
-1.  **Create a Gatsby site.**
+  <a href="https://www.linkedin.com/in/león-gerardo-martínez-ostos-5a0927b0/">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-leon%20webdev">
+  </a>
+  
+  <img alt="Repository size" src="https://img.shields.io/github/size/leon-webdev/my-website?style=flat-square">
+  
+  <a href="https://github.com/leon-webdev/my-website/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/leon-webdev/my-website?style=flat-square">
+  </a>
+  
+  <a href="https://github.com/leon-webdev/my-website/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/leon-webdev/my-website?style=flat-square">
+  </a>
+  
+  <img alt="GitHub" src="https://img.shields.io/github/license/leon-webdev/my-website?style=flat-square">
+</p>
 
-    Use the Gatsby CLI to create a new site, specifying the hello-world starter.
+<p align="center">
+  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">License</a>
+</p>
 
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
+## 👨🏻‍💻 About the project
 
-1.  **Start developing.**
+- <p style="color: red;">This is the personal page of León G.</p>
 
-    Navigate into your new site’s directory and start it up.
+## 🚀 Technologies
 
-    ```shell
-    cd my-hello-world-starter/
-    gatsby develop
-    ```
+Technologies that I used to develop this web client
 
-1.  **Open the source code and start editing!**
+- [GatsbyJS](https://gatsbyjs.com/)
+- [GraphQL](https://graphql.org/)
+- [ReactJS](https://reactjs.org/)
+- [React Icons](https://react-icons.netlify.com/#/)
+- [Eslint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
-    Your site is now running at `http://localhost:8000`!
+## 💻 Getting started
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
+### Requirements
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+- Gatsby CLI
+- NodeJS
 
-## 🧐 What's inside?
+**Clone the project and access the folder**
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+```bash
+$ git clone https://github.com/leon-webdev/my-website.git && cd my-website
+```
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+**Follow the steps below**
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+```bash
+# Install the dependencies
+$ yarn
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+# Start the client
+$ yarn start
+```
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+## 🤔 How to contribute
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+**Make a fork of this repository**
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+```bash
+# Fork using GitHub official command line
+# If you don't have the GitHub CLI, use the web site to do that.
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
+$ gh repo fork leon-webdev/my-website.git
+```
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+**Follow the steps below**
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+```bash
+# Clone your fork
+$ git clone https://github.com/leon-webdev/my-website.git && cd my-website
 
-9.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+# Create a branch with your feature
+$ git checkout -b my-feature
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+# Make the commit with your changes
+$ git commit -m 'feat: My new feature'
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+# Send the code to your remote branch
+$ git push origin my-feature
+```
 
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+After your pull request is merged, you can delete your branch
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/leon-webdev/my-website)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/leon-webdev/my-website)
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with 💜 &nbsp;by León G. Martínez Ostos 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/león-gerardo-martínez-ostos-5a0927b0/)
