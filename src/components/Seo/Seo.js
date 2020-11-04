@@ -24,6 +24,8 @@ function Seo({ props }) {
     title = site.siteMetadata.title,
   } = props
 
+  console.log(description)
+
   return (
     <Helmet
       htmlAttributes={{
@@ -64,7 +66,7 @@ function Seo({ props }) {
   )
 }
 
-SEO.propTypes = {
+Seo.propTypes = {
   description: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string,

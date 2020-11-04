@@ -4,17 +4,17 @@ import CustomFonts from "../components/custom-fonts/CustomFonts"
 import Footer from "../components/footer/Footer"
 import Header from "../components/header/Header"
 import MainContent from "../components/main-content/MainContent"
-import Seo from "../components/seo/Seo"
+// import Seo from "../components/seo/Seo"
 import Sidebar from "../components/sidebar/Sidebar"
 import StructuredData from "../components/structure-data/StructuredData"
 import "../styles/style.css"
 
 export default function Home({ data }) {
-  const { history, profile, projects, site, social } = data
+  const { history, profile, projects, social } = data
 
   return (
     <div className="antialiased bg-back leading-normal font-text text-front">
-      <Seo />
+      {/* <Seo /> */}
       <StructuredData profile={profile} social={social.nodes} />
       <CustomFonts />
 

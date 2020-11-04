@@ -5,7 +5,7 @@ import ProjectIcon from "./ProjectIcon"
 import ProjectStatus from "./ProjectStatus"
 import ProjectTags from "./ProjectTags"
 
-function Project() {
+function Project({ props }) {
   const { name, image, url, description, status, tags, icon } = props
   return (
     <div className="border-t-4 border-line relative flex flex-wrap bg-back-light p-4 lg:p-8 bg-no-repeat text-sm mb-6">
