@@ -19,15 +19,13 @@ module.exports = theme => {
       extend: {
         colors: {
           ...colors,
-          "back-light": color(colors.back)
-            .lighten(0.18)
-            .hex(),
+          "back-light": color(colors.back).lighten(0.18).hex(),
         },
         borderRadius: {
           lg: "1rem",
         },
         spacing: {
-          "14": "3.5rem",
+          14: "3.5rem",
         },
       },
     },

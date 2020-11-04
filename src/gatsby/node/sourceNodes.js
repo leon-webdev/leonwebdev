@@ -1,5 +1,5 @@
 module.exports = ({ actions }) => {
-    actions.createTypes(`
+  actions.createTypes(`
       type WorkHistoryYaml implements Node {
         id: ID!
         company: String!
@@ -18,4 +18,4 @@ module.exports = ({ actions }) => {
         url: String
       }
     `)
-  }
+}
