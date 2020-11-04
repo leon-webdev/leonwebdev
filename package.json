@@ -26,6 +26,7 @@
     "gatsby-source-filesystem": "^2.4.0",
     "gatsby-transformer-sharp": "^2.5.21",
     "gatsby-transformer-yaml": "^2.4.15",
+    "postcss": "^8.1.4",
     "postcss-input-range": "^4.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
