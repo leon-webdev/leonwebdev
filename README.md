@@ -64,7 +64,7 @@ Technologies that I used to develop this web client
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leon-webdev/my-website.git && cd my-website
+$ git clone https://github.com/leon-webdev/leonwebdev.git && cd leonwebdev
 ```
 
 **Follow the steps below**
@@ -85,14 +85,14 @@ $ yarn start
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork leon-webdev/my-website.git
+$ gh repo fork leon-webdev/leonwebdev.git
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone https://github.com/leon-webdev/my-website.git && cd my-website
+$ git clone https://github.com/leon-webdev/leonwebdev.git && cd leonwebdev
 
 # Create a branch with your feature
 $ git checkout -b my-feature
@@ -108,9 +108,9 @@ After your pull request is merged, you can delete your branch
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/leon-webdev/my-website)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/leon-webdev/leonwebdev)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/leon-webdev/my-website)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/leon-webdev/leonwebdev)
 
 ## 📝 License
 
